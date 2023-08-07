@@ -141,9 +141,9 @@
                         <h2>ToDo</h2>
                         <ul>
                             <li th:each="employee : ${employees}" th:if="${employee.done == 'todo'}">
-                                <span th:text="${employee.toDo}"></span><br>
-                                <span th:text="${employee.progress}"></span><br>
-                                <span th:text="${employee.done}"></span>
+                              <h3> ToDo <span th:text="${employee.toDo}"></span> </h3>
+                              <h3>Progress <span th:text="${employee.progress}"></span> </h3>
+                               <h3> Done <span th:text="${employee.done}"></span> </h3>
                             </li>
                         </ul>
                     </div>
@@ -151,9 +151,9 @@
                         <h2>In Progress</h2>
                         <ul>
                             <li th:each="employee : ${employees}" th:if="${employee.done == 'inProgress'}">
-                                <span th:text="${employee.toDo}"></span><br>
-                                <span th:text="${employee.progress}"></span><br>
-                                <span th:text="${employee.done}"></span>
+                                <h3> ToDo <span th:text="${employee.toDo}"></span> </h3>
+                                <h3>Progress <span th:text="${employee.progress}"></span> </h3>
+                                <h3> Done <span th:text="${employee.done}"></span> </h3>
                             </li>
                         </ul>
                     </div>
@@ -161,9 +161,9 @@
                         <h2>Done</h2>
                         <ul>
                             <li th:each="employee : ${employees}" th:if="${employee.done == 'done'}">
-                                <span th:text="${employee.toDo}"></span><br>
-                                <span th:text="${employee.progress}"></span><br>
-                                <span th:text="${employee.done}"></span>
+                                <h3> ToDo <span th:text="${employee.toDo}"></span> </h3>
+                                <h3>Progress <span th:text="${employee.progress}"></span> </h3>
+                                <h3> Done <span th:text="${employee.done}"></span> </h3>
                             </li>
                         </ul>
                     </div>
