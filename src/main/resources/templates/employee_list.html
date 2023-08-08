@@ -48,12 +48,12 @@
                                     <ul class="list-unstyled">
                                         <li th:each="employee : ${employees}"
                                             th:if="${employee.done == 'todo'}">
-                                            <h3> ToDo <span th:text="${employee.toDo}"></span>
+                                            <h3> ToDo: <span th:text="${employee.toDo}"></span>
                                             </h3>
-                                            <h3>Progress <span
+                                            <h3>Progress: <span
                                                     th:text="${employee.progress}"></span>
                                             </h3>
-                                            <h3> Done <span th:text="${employee.done}"></span>
+                                            <h3> Done: <span th:text="${employee.done}"></span>
                                             </h3>
                                         </li>
                                     </ul>
@@ -67,12 +67,12 @@
                                     <ul class="list-unstyled">
                                         <li th:each="employee : ${employees}"
                                             th:if="${employee.done == 'inProgress'}">
-                                            <h3> ToDo <span th:text="${employee.toDo}"></span>
+                                            <h3> ToDo: <span th:text="${employee.toDo}"></span>
                                             </h3>
-                                            <h3>Progress <span
+                                            <h3>Progress: <span
                                                     th:text="${employee.progress}"></span>
                                             </h3>
-                                            <h3> Done <span th:text="${employee.done}"></span>
+                                            <h3> Done: <span th:text="${employee.done}"></span>
                                             </h3>
                                         </li>
                                     </ul>
@@ -88,10 +88,10 @@
                                             th:if="${employee.done == 'done'}">
                                             <h3> ToDo: <span th:text="${employee.toDo}"></span>
                                             </h3>
-                                            <h3>Progress <span
+                                            <h3>Progress: <span
                                                     th:text="${employee.progress}"></span>
                                             </h3>
-                                            <h3> Done <span th:text="${employee.done}"></span>
+                                            <h3> Done: <span th:text="${employee.done}"></span>
                                             </h3>
                                         </li>
                                     </ul>
